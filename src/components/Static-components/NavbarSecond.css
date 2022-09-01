@@ -1,0 +1,187 @@
+.second-navbar {
+    width: 100%;
+    position: relative;
+    top: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+.second-navbar-list,
+.second-navbar-sub-list {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    color: white;
+    font-size: 14px;
+    background-color: #232F3E;
+    padding: 0;
+    align-items: center;
+}
+
+.second-navbar-list{
+    gap: 10px;
+}
+
+.second-navbar-sub-list{
+    justify-content: space-around;
+}
+
+.list-item-1{
+    position: static;
+    text-align: center;
+    font-weight: 500;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.login-image {
+    width: 30px;
+    color: white;
+}
+
+.list-item{
+    object-fit: contain;
+    height: 100%;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.prime-image {
+    vertical-align: middle;
+}
+
+.prime-image:hover,
+.list-item-1:hover,
+.side-bar-button:hover {
+    outline: 1px solid white;
+    border-radius: 1px;
+}
+
+.links{
+    text-decoration: none;
+    color: white;
+}
+
+/* SIDE BAR MENU */
+
+.hamburger-icon {
+    font-size: 22px;
+    margin-bottom: 2px;
+}
+
+.side-bar-button {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.all-button {
+    font-weight: 700;
+    font-size: 14px;
+    margin-left: 3px;
+}
+
+.side-bar-button:hover {
+    cursor: pointer;
+}
+
+.close-sidebar-button {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-left: 390px;
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+    z-index: 75;
+    transform: translateY(-5px);
+    transition: visibility 0.3s;
+}
+
+/* overlay */
+
+.overlay {
+    /* display: none; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 50;
+    background-color: rgba(0, 0 ,0 ,0.8);
+}
+
+/* Dropdown / side-container */
+
+.side-bar-side-container hr {
+    width: 85%;
+}
+
+.side-bar-dropdown {
+    display: flex;
+    width: 85%;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 15px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    cursor: pointer;
+}
+
+.side-bar-dropdown:hover {
+    background-color: #eaeded;
+}
+
+.side-bar-dropdown:hover .chevron-down {
+    color: #111;
+}
+
+#first-side-container {
+    display: none;
+    height: 0px;
+    opacity: 0;
+    transform: scaleY(0);
+    transform-origin: center top;
+}
+
+/* animations */
+/* to open the close button and the transparent overlay */
+
+@keyframes show {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+@keyframes expandDropDown {
+    0% {
+        transform: scaleY(0);
+        opacity: 0;
+    }
+    100% {
+        transform: scaleY(1);
+        opacity: 1;
+    }
+}
+
+@keyframes collapseDropDown {
+    0% {
+        transform: scaleY(1);
+        opacity: 1;
+    }       
+    100% {
+        transform: scaleY(0);
+        opacity: 0;
+    }
+}

@@ -1,0 +1,29 @@
+.checkout{
+    display: flex;
+    padding: 20px;
+    height:auto;
+    background-color: white;
+    position: relative;
+    top: 60px;
+}
+
+.checkout-left{
+    width: 80%;
+    padding-bottom: 60px;
+}
+
+.checkout-left-title{
+    margin-right: 10px;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.checkout-right{
+   margin-right: 10px;
+}
+
+.offer-boxes{
+    display: none;
+}

@@ -1,0 +1,269 @@
+/* body {
+    background-color: #fff;
+} */
+
+/* .main-product-container {
+    display: flex;
+    position: relative;
+    top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1600px;
+    gap: 30px;
+} */
+
+/* main product section */
+.main-product-container {
+background-color: #fff;
+}
+
+.sub-container-1 {
+    display: flex;
+    /* justify-content: space-between; */
+    position: relative;
+    top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1600px;
+    gap: 30px;
+}
+
+/* .product-card {
+    width: 500px;
+} */
+
+.product-checkout-card {
+    width: 250px;
+    padding: 10px;
+    border-radius: 8px;
+    height: 350px;
+    padding: 18px;
+    border: 1px solid #D5D9D9;
+    /* box-shadow: 0 0 0 4px #D5D9D9 inset; */
+    background-color: #fff;
+    /* float: right; */
+    /* margin-left: 150px; */
+    position: absolute;
+}
+
+.checkout-card-details {
+    border-radius: 8px;
+    background-clip: content-box;
+    padding: 25px 0 8px 0;
+}
+
+.products-price {
+    text-align: center;
+    margin-top: 5px;
+    /* color: #B12704; */
+    font-size: 30px;
+    font-weight: 400;
+    width: 100%;
+}
+
+.in-stock {
+    font-size: 18px;
+    color: green;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.sold-by {
+    margin: 10px 0 10px 0;
+}
+
+.sold-by span,
+.delivery-note span {
+    color: #007185;
+    cursor: pointer;
+}
+
+.sold-by span:hover,
+.delivery-note span:hover {
+    text-decoration: underline;
+}
+
+.taxes {
+    margin: 10px 0 10px 0;
+}
+
+.add-to-cart-btn {
+    background-color: #FF9900;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: black;
+    border: 0;
+    cursor: pointer;
+    height: 40px;
+    width: 80%;
+    margin: 20px 10px 0 25px;
+    border-radius: 50px;
+}
+
+.products-info {
+    max-width: 1000px;
+}
+
+.products-title {
+    /* text-align: center; */
+    font-size: 29px;
+    margin: 0 10px 10px 10px;
+    padding: 0 10px 10px 10px;
+    width: 90%;
+}
+
+.products-image {
+    max-width: 30%;   
+}
+
+.products-image img {
+    width: 300px;
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 5%);
+}
+
+.products-rating {
+    display: flex;
+    font-size: 15px;
+    margin: 0 10px 10px 10px;
+    padding: 0 10px 10px 10px;
+}
+
+.products-rating > .products-rating-number {
+    color: #007185;
+    padding: 2px 0 0 10px;
+}
+
+.products-rating > .products-rating-number:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.pricing {
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.mrp-price-1 {
+    color: #565959;
+}
+
+.mrp-price-1 span {
+    text-decoration: line-through;
+}
+
+.mrp-price-2 {
+    color: #B12704;
+}
+
+.mrp-price-main {
+    margin-bottom: 8px;
+}
+
+.mrp-price-main > .percent-off,
+.mrp-price-main > .deal-price{
+    font-size: 30px;
+}
+
+.mrp-price-main > .percent-off {
+    color: #CC0C39;
+    font-weight: 300;
+}
+
+.mrp-price-main > .deal-price > .zeros,
+.products-price > .zeros {
+    font-size: 13px;
+    position: relative;
+    top: -.75em;
+}
+
+/* offer boxes */
+
+.offers-text {
+    margin: 10px 10px 10px 10px;
+    /* padding: 0 0 20px 26%; */
+    background-color: #fff;
+    /* width: 50%; */
+}
+
+.offer-boxes {
+    display: flex;
+    gap: 8px;
+    margin: 0px 10px 10px 10px;
+    /* padding: 0 0 20px 26%; */
+    background-color: #fff;
+    /* width: 100%; */
+}
+
+.offer-boxes > .offer-box {
+    width: 150px;
+    padding: 7px 10px;
+    border-radius: 5px;
+    border: 1px solid #D5D9D9;
+    box-shadow: 0 0 3px 0 rgb(0 0 0 / 30%);
+    cursor: pointer;
+}
+
+.main-text {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.sub-text {
+    font-size: 15px;
+    padding: 7px 0 7px 0;
+}
+
+.bottom-text {
+    color: #007185;
+}
+
+.fa-chevron-right {
+    font-size: 10px;
+}
+
+.bottom-text:hover {
+    text-decoration: underline;
+    color: #B12704;
+}
+
+
+/* special offers and product promotions section */
+
+.sub-container-2 {
+    position: relative;
+    top: 100px;
+    margin-top: 50px;
+    padding-left: 24.5%;
+    padding-right: 25%;
+    max-width: 1600px;
+    background-color: #fff;
+    padding-bottom: 50px;
+}
+
+.special-offers-section {
+    width: 100%;
+    /* margin: 20px 0 20px 0; */
+    padding: 40px auto 40px auto;
+}
+
+.customer-reviews > .text-2 {
+    margin: 0 10px 10px 10px;
+    padding: 0 10px 10px 10px
+}
+
+.special-offer span{
+    color: #007185;
+    cursor: pointer;
+}
+
+.special-offer span:hover {
+    text-decoration: underline;
+}
+
+.special-offer span:hover > .fa-chevron-down {
+    color: #111;
+}
+
+.fa-chevron-down {
+    color: #8e9090;
+    font-size: 10px;
+}

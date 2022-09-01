@@ -1,0 +1,32 @@
+.side-bar {
+    position: relative;
+    top: 60px;
+    padding-right: 80px;
+}
+
+.side-bar-menu-1 > .topic {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.checkboxes {
+    flex-direction: column;
+}
+
+.inputs {
+    margin-right: 5px;
+}
+
+.side-bar-menu-2 {
+    margin-top: 20px;
+}
+
+.delivery {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.side-bar-items-list {
+    list-style: none;
+    padding: 0;
+}
